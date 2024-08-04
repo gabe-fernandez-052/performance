@@ -3,14 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsDemo", "ExceptionsDemo\ExceptionsDemo.csproj", "{674D8AAC-5329-49D2-ACDF-32830FE8A74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionsDemo", "ExceptionsDemo\ExceptionsDemo.csproj", "{674D8AAC-5329-49D2-ACDF-32830FE8A74D}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2C3C219E-74A6-42EA-9982-F312B10E92CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57272E30-D45E-49F6-BBD4-1DF1C8DCA9E1}"
 	ProjectSection(SolutionItems) = preProject
-		api-test-create-product.js = api-test-create-product.js
-		api-test-get-product.js = api-test-get-product.js
+		api-load-test-get-product.js = api-load-test-get-product.js
+		api-load-test-create-product.js = api-load-test-create-product.js
+		api-soak-test-create-product.js = api-soak-test-create-product.js
+		api-soak-test-get-product.js = api-soak-test-get-product.js
+		api-spike-test-create-product.js = api-spike-test-create-product.js
+		api-spike-test-get-product.js = api-spike-test-get-product.js
+		api-stress-test-create-product.js = api-stress-test-create-product.js
+		api-stress-test-get-product.js = api-stress-test-get-product.js
 	EndProjectSection
 EndProject
 Global
